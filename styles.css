@@ -19,9 +19,10 @@ footer {
 }
 @media (max-width: 768px) {
     body {
-        background-color: #eef;
+        background-color: rgb(17, 17, 19);
+        color: white;
     }
     h1 {
-        font-size: 1.8rem;
+        font-size: 1.5rem;
     }
 }
