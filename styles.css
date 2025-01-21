@@ -7,7 +7,7 @@ body {
     background-color: #f9f9f9;
 }
 header {
-    margin-bottom: 20px;
+    margin-bottom: 0px;
 }
 h1, h2 {
     font-weight: bold;
@@ -16,6 +16,14 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+}
+.navbar-nav .nav-link {
+    font-weight: bold;
+    color: white;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #cccccc;
 }
 @media (max-width: 768px) {
     body {
